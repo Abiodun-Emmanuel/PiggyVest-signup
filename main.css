@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ADD8E6;
+	color: black;
+	text-rendering: optimizeLegibility;
+	font-family: "U8", sans-serif;
+    line-height: 1.625em;
+    border: 0 solid #e2e8f0
+ 
+}
+
+.logo {
+	margin-top: 40px;
+	margin-bottom: 3rem;
+	text-align: center;
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.container {
+	max-width: 28rem;
+	margin: auto;
+	background-color: white;
+	height: auto;
+	border-bottom-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+
+
+.header h1 {
+	padding-top: 20px;
+	font-family: 'Karla';font-size: 24px;
+	color: #083e9e;
+	text-align: center;
+	font-weight: 700;
+}
+
+.header p{
+	padding-top: 5px;
+	font-family: 'Karla';
+	font-size: 12px;
+	color: #4a5568;
+	font-size: .875rem;
+	text-align: center;
+}
+
+
+.myform .form1{
+	padding-bottom: 30px;
+}
+
+.myform{
+	width: 100%;
+	padding: 2.5rem;
+	padding-top: 20px;
+	font-family: 'Karla';
+}
+
+
+.myform input, select {
+	padding: 16px;
+	width: 100%;
+	font-size: 100%;
+	height: 50px;
+	background-color: #edf2f7;
+	font-family: 'Karla';
+	border-radius: .25rem;
+	border:none;
+}
+
+
+.myform select {
+	border-radius: 10px;
+}
+
+.myform select:hover {
+	border: #1a202c;
+	border-radius: 10px;
+}
+
+option {
+	background-color: white;
+	
+}
+
+.text-gray-900 {
+    color: #1a202c;
+}
+
+.texting{
+	color: #4a5568;
+	font-weight: 700;
+	font-size: 0.9rem;
+	margin-bottom: 4px;
+}
+
+.textname {
+	color: black;
+}
+
+.input-text {
+	background-color: #edf2f7;
+	color: #;
+}
+
+.lastText {
+	background-color: rgb(8, 62, 158);
+	color: white;
+	text-transform: uppercase;
+	padding: 20px 40px 16px;
+	width: 100%;
+	border-bottom-right-radius: 0.755rem;
+	border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Karla';
+    font-size: 1rem;
+    text-align: center;
+}
+
+.paragraph {
+	text-align: center;
+	color: white;
+	margin: 28px;
+	font-family: 'Karla';
+	font-size: 14px;
+}
+
+.paragraph:hover{
+	color: #b1b2b3;
+	cursor: pointer;
+}
